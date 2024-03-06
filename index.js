@@ -12,7 +12,7 @@ client.on('ready', async () => {
     console.log(`${client.user.tag} - rich presence started!`);
 
     const r = new Discord.RichPresence()
-        .setApplicationId('1187238107209273345')
+        .setApplicationId('1107744228773220473')
         .setType('PLAYING')
         .setURL('https://zcyy-website.vercel.app')
         .setState('invite My Bot')
