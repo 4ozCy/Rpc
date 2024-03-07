@@ -16,7 +16,7 @@ client.on('ready', async () => {
         .setType('PLAYING')
         .setURL('https://zcyy-website.vercel.app')
         .setState('invite My Bot')
-        .setName('If I could rearrange the alphabet, I would put U and I together.')
+        .setName('Mario Is Red, Sonic Is Blue, Will You Be My Player 2.')
         .setDetails('Go Visit My Website')
         .setAssetsLargeImage('https://media.discordapp.net/attachments/1187377061959045181/1215063569578721333/22714827862d17e1a1a78bd344bfc5fc.jpg?ex=65fb6321&is=65e8ee21&hm=9c8262b8d6178831f8ad6cfe1dab9bb0efdd0cf9e1a092c470d354fb798778b8&')
         .addButton('visit my website', 'https://zcyy-website.vercel.app')
