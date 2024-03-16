@@ -18,7 +18,7 @@ client.on('ready', async () => {
         .setState('invite My Bot')
         .setName('Are you a time traveller coz I can see u in my future.')
         .setDetails('Join My Bot Support Server')
-        .setAssetsLargeImage('https://media.discordapp.net/attachments/1187377061959045181/1215063569578721333/22714827862d17e1a1a78bd344bfc5fc.jpg?ex=65fb6321&is=65e8ee21&hm=9c8262b8d6178831f8ad6cfe1dab9bb0efdd0cf9e1a092c470d354fb798778b8&')
+        .setAssetsLargeImage('https://media.discordapp.net/attachments/1187377061959045181/1218696970290335874/Screenshot_2024_0317_060626.png?ex=66089b00&is=65f62600&hm=57110e7a31de8218bdf8f63f233125f6fe7654a658594a87a7e7b195215d7560&')
         .addButton('Support Server', 'https://discord.com/invite/SvF8YyQtgw')
         .addButton('Invite My Bot', 'https://discord.com/oauth2/authorize?client_id=1211738857192816681&permissions=68608&scope=bot+applications.commands');
 
