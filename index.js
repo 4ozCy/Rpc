@@ -16,7 +16,7 @@ client.on('ready', async () => {
         .setType('PLAYING')
         .setURL('https://zcyy-website.vercel.app')
         .setState('invite My Bot')
-        .setName('The Hunt: First Edition.')
+        .setName('The Hunt: First Edition')
         .setDetails('Join My Bot Support Server')
         .setAssetsLargeImage('https://media.discordapp.net/attachments/1187377061959045181/1218696970290335874/Screenshot_2024_0317_060626.png?ex=66089b00&is=65f62600&hm=57110e7a31de8218bdf8f63f233125f6fe7654a658594a87a7e7b195215d7560&')
         .addButton('Support Server', 'https://discord.com/invite/SvF8YyQtgw')
