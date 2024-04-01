@@ -15,9 +15,9 @@ client.on('ready', async () => {
         .setApplicationId('1107744228773220473')
         .setType('LISTENING')
         .setURL('https://zcyy-website.vercel.app')
-        .setState('Join My Community Server🎶')
+        .setState('Join My Community Server')
         .setName('Bruno Mars')
-        .setDetails('Bruno Mars is the best')
+        .setDetails('Bruno Mars is the best 🎶')
         .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1187377061959045181/1224362471670812722/62f9e83690075ebc5c0d4c46ce6bf04e.jpg?ex=661d3768&is=660ac268&hm=646598b1b9bf1fd50d3362506dff1667ce90db8b88eec625c4b804f77cd5c0b3&')
         .addButton('My Community Server', 'https://discord.com/invite/WUCm5Hkazq');
 
