@@ -13,13 +13,13 @@ client.on('ready', async () => {
 
     const r = new Discord.RichPresence()
         .setApplicationId('1107744228773220473')
-        .setType('PLAYING')
+        .setType('LISTENING')
         .setURL('https://zcyy-website.vercel.app')
         .setState('Bruno Mars is the Best')
         .setName('Bruno Mars')
         .setDetails('Join My Community Server')
         .setAssetsLargeImage('https://files.catbox.moe/4i5zd8.jpg')
-        .addButton('Join My Community Server', '');
+        .addButton('My Community Server', 'https://discord.com/invite/WUCm5Hkazq');
 
     client.user.setActivity(r);
     client.user.setPresence({ status: 'dnd' });
