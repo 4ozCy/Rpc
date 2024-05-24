@@ -18,7 +18,7 @@ client.on('ready', async () => {
         .setState('Why is nothing is nothing and nothing is nothing')
         .setName('Nothing')
         .setDetails('Rose Are Red, Violets Are Blue, Im Asian')
-        .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1187377061959045181/1224362471670812722/62f9e83690075ebc5c0d4c46ce6bf04e.jpg?ex=661d3768&is=660ac268&hm=646598b1b9bf1fd50d3362506dff1667ce90db8b88eec625c4b804f77cd5c0b3&')
+        .setAssetsLargeImage('https://files.catbox.moe/ijfwce.jpg')
         .addButton('join my community server', 'https://discord.com/invite/H6Gv3ftYFU')
         .addButton('Invite my bot', 'https://discord.com/oauth2/authorize?client_id=1230988193650835477');
 
