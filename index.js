@@ -17,8 +17,9 @@ client.on('ready', async () => {
         .setURL('https://zcyy-website.vercel.app')
         .setState('pls join my community server')
         .setName('Nothing')
+        .setDetail('click the button below to join my server')
         .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1233503643500675252/1256997956637425674/c7ce50ce-fbbe-4589-a0e4-0c47a8d982ce.png?ex=6682ce12&is=66817c92&hm=76379a7f03b06623c8f9e7cf60f3f42d38a273c3bfffc7d22b917a7f849b60b8&')
-        .addButton('my community server', 'https://discord.com/invite/tqnDqzmbxE')
+        .addButton('click here', 'https://discord.com/invite/tqnDqzmbxE')
 
     client.user.setActivity(r);
     client.user.setPresence({ status: 'dnd' });
