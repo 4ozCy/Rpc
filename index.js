@@ -15,6 +15,7 @@ client.on('ready', async () => {
             .setDetails('To win your heart')
             .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1233503643500675252/1256997956637425674/c7ce50ce-fbbe-4589-a0e4-0c47a8d982ce.png?ex=66ea4bd2&is=66e8fa52&hm=6c4243d7cb46548b8b712fbfedc5df421bfaa9e57021c33a177e195a2ba9dca5&')
             .setStartTimestamp(Date.now());
+            .addButton('My Website', 'https://filebox-op.onrender.com/')
 
         client.user.setActivity(r);
         client.user.setPresence({ status: 'dnd' });
