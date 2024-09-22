@@ -20,16 +20,6 @@ client.on('ready', async () => {
     client.user.setActivity(r);
     client.user.setPresence({ status: 'dnd' });
 
-    const channelId = '1282119874675605575';
-    const channel = client.channels.cache.get(channelId);
-
-    if (channel) {
-        setInterval(() => {
-            channel.startTyping();
-        }, 5000);
-    } else {
-        console.error('Channel not found.');
-    }
 });
 
 client.login(process.env.TOKEN);
