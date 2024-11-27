@@ -14,9 +14,8 @@ client.on('ready', async () => {
         .setName('Tournament')
         .setDetails('To win your heart')
         .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1233503643500675252/1295274070564143179/c7ce50ce-fbbe-4589-a0e4-0c47a8d982ce.png?ex=670e0d7b&is=670cbbfb&hm=fafbf458627f68c0d61bcf6b9650ac33ae0d7b49d26863a34fdc1356c303e0e2&')
-        .setStartTimestamp(Date.now())
-        .addButton('My Website', 'https://files-box.vercel.app/');
-
+        .setStartTimestamp(Date.now());
+    
     client.user.setActivity(r);
     client.user.setPresence({ status: 'dnd' });
 
