@@ -9,11 +9,9 @@ client.on('ready', async () => {
 
     const r = new Discord.RichPresence()
         .setApplicationId('1107744228773220473')
-        .setType('COMPETING')
-        .setState('Host by a non-existing person')
-        .setName('Tournament')
-        .setDetails('To win your heart')
-        .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1233503643500675252/1295274070564143179/c7ce50ce-fbbe-4589-a0e4-0c47a8d982ce.png?ex=670e0d7b&is=670cbbfb&hm=fafbf458627f68c0d61bcf6b9650ac33ae0d7b49d26863a34fdc1356c303e0e2&')
+        .setType('PLAYING')
+        .setName('Roblox')
+        .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1187377061959045181/1424025128542670888/a74302ee6ea5e4c27bb472f91c859aba.jpg?ex=68e31aff&is=68e1c97f&hm=1f2d045635b86d11364a0581c56b2ad335a03abcbc7797c034dd8c49a47640fd&')
         .setStartTimestamp(Date.now());
     
     client.user.setActivity(r);
